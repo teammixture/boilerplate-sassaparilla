@@ -1,10 +1,10 @@
 {
   "debug": false,
   "lintScripts": false,
-  "preprocessorScriptOutput": "public/js",
-  "preprocessorStyleOutput": "public/css",
+  "preprocessorScriptOutput": "assets/js",
+  "preprocessorStyleOutput": "assets/css",
   "projectName": "Sassaparilla",
-  "projectDescrition": "Sassaparilla is a fast way to start your responsive web design projects that harnesses the power of SASS and Compass.",
+  "projectDescription": "Sassaparilla is a fast way to start your responsive web design projects that harnesses the power of SASS and Compass.",
   "publishedId": null,
   "publishedAccount": null,
   "serverHostName": null,

@@ -7,12 +7,12 @@ project_path = "/Path"
 # -----------------------------------------------------------------------------
 
 http_path = "/"
-css_dir = "public/css"
-sass_dir = "public/css"
-images_dir = "public/img"
-javascripts_dir = "public/js"
-vg_dir = "public/svg"
-fonts_dir = "public/fonts"
+css_dir = "assets/css"
+sass_dir = "assets/css"
+images_dir = "assets/img"
+javascripts_dir = "assets/js"
+vg_dir = "assets/svg"
+fonts_dir = "assets/fonts"
 
 # Output style and comments
 # -----------------------------------------------------------------------------

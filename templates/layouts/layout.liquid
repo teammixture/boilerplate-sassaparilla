@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>{% block title %}Mixture + Sassaparilla{% endblock %}</title>
-        <link rel="shortcut icon" type="image/ico" href="{{ "/favicon.ico" | root_asset }}" />
-        {{ "/css/screen.css" | asset_url | stylesheet_tag }}
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        {{ "screen.css" | asset_url | stylesheet_tag }}
         <!--TODO: DELETE ME -->
-        {{ "/css/sassaparilla.css" | asset_url | stylesheet_tag }}
+        {{ "sassaparilla.min.css" | asset_url | stylesheet_tag }}
         <!-- TODO: Complete this project :) -->
         <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
     </head>
@@ -23,5 +23,5 @@
     <!--http://hashgrid.com/ if you so please
     {{ "/js/hashgrid.js" | asset_url | script_tag }}
     -->
-    {{ "/js/script.js" | asset_url | script_tag }}
+    {{ "script.js" | asset_url | script_tag }}
 </html>
