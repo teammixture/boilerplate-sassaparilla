@@ -7,7 +7,7 @@
   "projectName": "Sassaparilla",
   "projectDescription": "Sassaparilla is a fast way to start your responsive web design projects that harnesses the power of SASS and Compass.",
   "publishedId": null,
-  "serverHostName": null,
+  "serverHostname": null,
   "serverPort": null,
   "templateDirectory": "templates",
   "templateDefaultLayout": "layout",
