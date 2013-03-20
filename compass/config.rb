@@ -25,3 +25,10 @@ output_style = :expanded
 line_comments = false
 cache = true
 color_output = false # required for Mixture
+
+
+# SASS core
+# -----------------------------------------------------------------------------
+
+# Chrome needs a precision of 7 to round properly
+Sass::Script::Number.precision = 7
