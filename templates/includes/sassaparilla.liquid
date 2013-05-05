@@ -16,7 +16,7 @@
 			<p><a href="http://docs.mixture.io" class="btn  btn--mix">Read the Mixture documentation &raquo;</a></p>
 		</article>
 		<article>
-			<p>Brought to you by: {% for person in people %} <a href="http://twitter.com/{{ person.twitter }}">{{ person.name }}</a> {% endfor %}</p>
+			<p>Brought to you by: {% for person in model.people %} <a href="http://twitter.com/{{ person.twitter }}">{{ person.name }}</a> {% endfor %}</p>
 		</article>
 	</section>
 </article>
