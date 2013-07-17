@@ -1,7 +1,7 @@
 # Require any additional compass plugins here.
 # -----------------------------------------------------------------------------
 
-
+project_path = File.expand_path("..",File.dirname(__FILE__))
 
 # Set this to the root of your project when deployed:
 # -----------------------------------------------------------------------------
