@@ -1,3 +1,18 @@
+{% block styles %}{{ "demo.css" | asset_url | stylesheet_tag }}{% endblock %}
+
 {% block content %}
- 	{% include "sassaparilla" %}
+
+<div class="is-typeset intro">
+
+	<div class="row">
+
+		<h1>Sassaparilla</h1>
+		<h2>by <a href="http://fffunction.co">fffunction</a></h2>
+		<h5>v 2.0</h3>
+		<p><a href="/demo">View demo</a></p>
+
+	</div>
+
+</div>
+
 {% endblock %}

@@ -1,0 +1,104 @@
+{% layout "demo" %}
+
+{% block styles %}{{ "demo.css" | asset_url | stylesheet_tag }}{% endblock %}
+
+{% block content %}
+
+<div class="hero">
+	<h1>Sassaparilla&nbsp;2: Fiennes Edition</h1>
+</div>
+
+<div class="how-to is-typeset">
+
+	<div class="row-parent">
+		<div class="row">
+			<section class="row__colspaced">
+				<div class="colspan12-8 push12-2 colspan8-5 colspan6-4 colspan2-2 as-grid with-gutter">
+					<div class="col__module--cta">
+						<h2>Your next web project</h2>
+						<p>Sassaparilla is a fast way to start your responsive web design projects that harnesses the power of <a rel="external" href="http://sass-lang.com/" title="Sass - Syntactically Awesome Stylesheets">Sass</a> and <a rel="external" href="http://compass-style.org/" title="Compass is an open-source CSS Authoring Framework">Compass</a>. It comes with just enough to get you on your way, and no unnecessary extras, so you can spend less time deleting what you don&rsquo;t need and more time building.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="colspan2-2">
+			<img src="/assets/demo/sassaparillav2.gif" alt="Sassaparilla screenshot">
+		</div>
+	</div>
+
+	<div class="row-parent">
+		<div class="row">
+			<section class="row__colspaced">
+				<div class="colspan12-4 colspan8-3 colspan6-2 colspan2-2 as-grid with-gutter">
+					<span class="type-svg"></span>
+				</div>
+				<div class="colspan12-8 colspan8-5 colspan6-4 colspan2-2 as-grid with-gutter">
+					<div class="col__module">
+						<h2>A core focus on better typography</h2>
+						<p>Nail your vertical rhythm with some help from compass&rsquo; awesome typography module. You&rsquo;ll never need to spend hours on calculations again, giving you more time to focus on creating better typography and overall rhythm to your designs. Use the new <em>Typeset module</em> to set all the typography for sections that need to be typeset and style other text elsewhere. This prevents you having to override global type styles or use endless classes for text.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="row-parent">
+		<div class="row">
+			<section class="row__colspaced">
+				<div class="colspan12-4 colspan8-3 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="col__module">
+						<h3>What&rsquo;s new in version&nbsp;two</h3>
+						<ul>
+							<li><strong>Sassafras</strong>: A flexible, responsive grid system that you can configure how you like</li>
+							<li><strong>Typeset module</strong>: Style blocks of content independently of global site settings</li>
+							<li><strong>Flexible breakpoints</strong>: Configure with ease and with fallbacks for IE</li>
+							<li><strong>Super settings</strong>: Flexible settings file that controls type measure, breakpoints, colours and more</li>
+							<li>&hellip;and loads more. Check out the <a rel="external" href="https://github.com/fffunction/sassaparilla/blob/master/README.md">readme</a>.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="colspan12-4 colspan8-3 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="col__module">
+						<h3>Sassafras grid system</h3>
+						<p>We&rsquo;ve added a grid system that we think is flexible enough for use on most projects. As is the mantra of Sassaparilla, it&rsquo;s a starting point for you to build on and tailor to your needs.</p>
+						<p>More importantly than that, you can configure the syntax, column numbers and break points however you like.</p>
+						<p>Be sure to check the readme file for full information on how it works, or check the <a href="/grid"> grid page</a> to see it in action.</p>
+					</div>
+				</div>
+				<div class="colspan12-4 colspan8-2 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="col__module">
+						<h3>All the usual goodies</h3>
+						<ul>
+							<li>Great typography defaults</li>
+							<li>Work in pixels, Compile in EMs</li>
+							<li>Minimalist set-up to get you started faster</li>
+							<li>CSS variables</li>
+							<li>Open license &ndash; use it how you like.</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="colspan2-2">
+			<span class="logos-svg"></span>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="colspan12-8 push12-2 colspan8-6 push8-1 colspan6-4 push6-1 colspan2-2">
+			<div class="col__module col__module--cta">
+				<h2>Setup is simple</h1>
+				<p>If you&rsquo;ve used <a rel="external" href="http://sass-lang.com">Sass</a> and <a rel="external" href="http://compass-style.org/">Compass</a> before, or if you&rsquo;ve never tried them, getting started is really easy. We&rsquo;ve tried to make it as painless as possible, using as little set-up time as required.</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+{% endblock %}

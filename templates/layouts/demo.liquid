@@ -6,8 +6,12 @@
 
 {% include "html-head-bottom" %}
 
-		<div class="site-content">
-			{% block content %}{% endblock %}
-		</div>
+	{% include "demo/header" %}
+
+	<div class="site-content">
+		{% block content %}{% endblock %}
+	</div>
+
+	{% include "demo/footer" %}
 
 {% include "html-base" %}

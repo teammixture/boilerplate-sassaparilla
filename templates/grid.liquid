@@ -1,0 +1,242 @@
+{% layout "demo" %}
+
+{% block styles %}{{ "demo.css" | asset_url | stylesheet_tag }}{% endblock %}
+
+{% block content %}
+
+<div class="grid-demo">
+
+	<!-- No gutters -->
+	<div class="row">
+		<div class="colspan12-2 colspan8-4 colspan6-2 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				1
+			</div>
+		</div>
+		<div class="colspan12-2 colspan8-4 colspan6-2 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				2
+			</div>
+		</div>
+		<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				3
+			</div>
+		</div>
+		<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				4
+			</div>
+		</div>
+		<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				5
+			</div>
+		</div>
+		<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				6
+			</div>
+		</div>
+	</div>
+
+	<!-- No gutters -->
+	<div class="row">
+		<div class="colspan12-3 colspan8-2 colspan6-3 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				1
+			</div>
+		</div>
+		<div class="colspan12-3 colspan8-2 colspan6-3 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				2
+			</div>
+		</div>
+		<div class="colspan12-4 colspan8-2 colspan6-3 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				3
+			</div>
+		</div>
+		<div class="colspan12-2 colspan8-2 colspan6-3 colspan2-2  as-grid">
+			<div class="as-grid__module">
+				4
+			</div>
+		</div>
+	</div>
+
+	<div class="row-parent">
+
+		<div class="row">
+
+			<!-- Gutters -->
+			<div class="row__colspaced">
+				<div class="colspan12-2 colspan8-4 colspan6-2 colspan2-2  as-grid with-gutter">
+					<div class="as-grid__module">
+						1
+					</div>
+				</div>
+				<div class="colspan12-2 colspan8-4 colspan6-2 colspan2-2  as-grid with-gutter">
+					<div class="as-grid__module">
+						2
+					</div>
+				</div>
+				<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						3
+					</div>
+				</div>
+				<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						4
+					</div>
+				</div>
+				<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						5
+					</div>
+				</div>
+				<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						6
+					</div>
+				</div>
+			</div>
+
+			<!-- Gutters -->
+			<div class="row__colspaced">
+				<div class="colspan12-3 colspan8-2 colspan6-3 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						1
+					</div>
+				</div>
+				<div class="colspan12-3 colspan8-2 colspan6-3 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module with-gutter">
+						2
+					</div>
+				</div>
+				<div class="colspan12-4 colspan8-2 colspan6-4 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						3
+					</div>
+				</div>
+				<div class="colspan12-2 colspan8-2 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						4
+					</div>
+				</div>
+			</div>
+
+			<!-- Gutters -->
+			<div class="row__colspaced">
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1  as-grid with-gutter">
+					<div class="as-grid__module">
+						1
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1  as-grid with-gutter">
+					<div class="as-grid__module">
+						2
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						3
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						4
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						5
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						6
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1  as-grid with-gutter">
+					<div class="as-grid__module">
+						7
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-1 colspan6-1 colspan2-1  as-grid with-gutter">
+					<div class="as-grid__module">
+						8
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-2 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						9
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-2 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						10
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-2 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						11
+					</div>
+				</div>
+				<div class="colspan12-1 colspan8-2 colspan6-1 colspan2-1 as-grid with-gutter">
+					<div class="as-grid__module">
+						12
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Pushes -->
+			<div class="row__colspaced">
+				<div class="colspan12-3 push12-6 colspan6-2 push6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module with-gutter">
+						1
+					</div>
+				</div>
+				<div class="colspan12-3 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						2
+					</div>
+				</div>
+			</div>
+
+			<!-- Pulls -->
+			<div class="row__colspaced">
+				<div class="colspan12-3 colspan6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module with-gutter">
+						1
+					</div>
+				</div>
+				<div class="colspan12-3 pull12-6 colspan6-2 pull6-2 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						2
+					</div>
+				</div>
+			</div>
+
+			<!-- Spaced -->
+			<div class="row__colspaced">
+				<div class="colspan12-8 colspan6-4 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module with-gutter">
+						1
+					</div>
+				</div>
+				<div class="colspan12-3 push12-1 colspan6-1 push6-1 colspan2-2 as-grid with-gutter">
+					<div class="as-grid__module">
+						2
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+{% endblock %}
