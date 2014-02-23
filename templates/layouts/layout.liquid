@@ -1,13 +1,34 @@
-{% include "html-head-top" %}
+<!doctype html>
+<!--[if lt IE 9 ]> <html lang="en-GB" class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en-GB" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-GB" class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="initial-scale=1">
 
-<title>{% block title %}Sassaparilla: Fiennes Edition{% endblock %}</title>
-{{ "screen.css" | asset_url | stylesheet_tag }}
-{% block styles %}{% endblock %}
+		<title>{% block title %}Sassaparilla: Fiennes Edition{% endblock %}</title>
+		{{ "screen.css" | asset_url | stylesheet_tag }}
+		{% block styles %}{% endblock %}		
+		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+		<!-- TODO: Download a custom build of modernizer to suit the project -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	</head>
 
-{% include "html-head-bottom" %}
+	<body>
+
+		{% block header %}{% endblock %}
 
 		<div class="site-content">
 			{% block content %}{% endblock %}
-		</div>
+		</div>	
 
-{% include "html-base" %}
+		{% block footer %}{% endblock %}	
+
+		<!-- TODO: Select version of jquery and link to CDN -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		{{ "script.js" | asset_url | script_tag }}
+
+	</body>
+
+</html>

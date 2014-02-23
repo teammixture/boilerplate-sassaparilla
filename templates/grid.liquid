@@ -1,6 +1,8 @@
-{% layout "demo" %}
-
 {% block styles %}{{ "demo.css" | asset_url | stylesheet_tag }}{% endblock %}
+
+{% block header %}
+	{% include "demo/header" %}
+{% endblock %}
 
 {% block content %}
 
@@ -239,4 +241,9 @@
 
 </div>
 
+{% endblock %}
+
+
+{% block footer %}
+	{% include "demo/footer" %}
 {% endblock %}
